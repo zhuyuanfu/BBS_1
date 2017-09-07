@@ -1,0 +1,29 @@
+<%@ page language="java" contentType="text/html; charset=UTF-8"
+    pageEncoding="UTF-8"%>
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<title>帖子详情</title>
+<link rel="stylesheet" type="text/css" href="css/layout.css" />
+<link rel="stylesheet" type="text/css" href="css/table.css" />
+</head>
+<body>
+<%
+	out.println(session.getAttribute("userName"));
+	out.println(session.getAttribute("password"));
+	//out.println(session.getAttribute("car"));
+%>
+
+<div id = "head">head</div>
+<div id = "container">
+	<div id = "content">this is content
+		
+	</div>
+	<div id = "side">this is side
+		
+	</div>
+</div>
+<div id = "foot">foot</div>
+</body>
+</html>
